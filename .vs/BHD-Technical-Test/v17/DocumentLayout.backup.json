@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6454C324-935B-4579-A1E0-8135C925EB7A}|API\\API.csproj|c:\\users\\darli\\onedrive\\documentos\\bhd-technical-test\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6454C324-935B-4579-A1E0-8135C925EB7A}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23AD5781-2918-45DC-8AAF-8A0C4AA891E2}|Infrastructure\\Infrastructure.csproj|c:\\users\\darli\\onedrive\\documentos\\bhd-technical-test\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23AD5781-2918-45DC-8AAF-8A0C4AA891E2}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23AD5781-2918-45DC-8AAF-8A0C4AA891E2}|Infrastructure\\Infrastructure.csproj|c:\\users\\darli\\onedrive\\documentos\\bhd-technical-test\\infrastructure\\persistence\\documentsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23AD5781-2918-45DC-8AAF-8A0C4AA891E2}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\documentsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23AD5781-2918-45DC-8AAF-8A0C4AA891E2}|Infrastructure\\Infrastructure.csproj|c:\\users\\darli\\onedrive\\documentos\\bhd-technical-test\\infrastructure\\repositories\\documentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23AD5781-2918-45DC-8AAF-8A0C4AA891E2}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\documentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E24EBD-447C-4EAC-A6DC-E519710173D0}|Application\\Application.csproj|c:\\users\\darli\\onedrive\\documentos\\bhd-technical-test\\application\\services\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99E24EBD-447C-4EAC-A6DC-E519710173D0}|Application\\Application.csproj|solutionrelative:application\\services\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6454C324-935B-4579-A1E0-8135C925EB7A}|API\\API.csproj|c:\\users\\darli\\onedrive\\documentos\\bhd-technical-test\\api\\controllers\\documentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6454C324-935B-4579-A1E0-8135C925EB7A}|API\\API.csproj|solutionrelative:api\\controllers\\documentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E24EBD-447C-4EAC-A6DC-E519710173D0}|Application\\Application.csproj|c:\\users\\darli\\onedrive\\documentos\\bhd-technical-test\\application\\dtos\\documentassetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99E24EBD-447C-4EAC-A6DC-E519710173D0}|Application\\Application.csproj|solutionrelative:application\\dtos\\documentassetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23AD5781-2918-45DC-8AAF-8A0C4AA891E2}|Infrastructure\\Infrastructure.csproj|c:\\users\\darli\\onedrive\\documentos\\bhd-technical-test\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{23AD5781-2918-45DC-8AAF-8A0C4AA891E2}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E24EBD-447C-4EAC-A6DC-E519710173D0}|Application\\Application.csproj|c:\\users\\darli\\onedrive\\documentos\\bhd-technical-test\\application\\interfaces\\idocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99E24EBD-447C-4EAC-A6DC-E519710173D0}|Application\\Application.csproj|solutionrelative:application\\interfaces\\idocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C23D226-B115-4FFE-B7E1-7B03C760BD75}|Domain\\Domain.csproj|c:\\users\\darli\\onedrive\\documentos\\bhd-technical-test\\domain\\enums\\sortby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C23D226-B115-4FFE-B7E1-7B03C760BD75}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\sortby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAACHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T15:10:55.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DocumentAssetDTO.cs",
+              "DocumentMoniker": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Application\\DTOS\\DocumentAssetDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOS\\DocumentAssetDTO.cs",
+              "ToolTip": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Application\\DTOS\\DocumentAssetDTO.cs",
+              "RelativeToolTip": "Application\\DTOS\\DocumentAssetDTO.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAiwCEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T14:52:06.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DocumentsDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Infrastructure\\Persistence\\DocumentsDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\DocumentsDbContext.cs",
+              "ToolTip": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Infrastructure\\Persistence\\DocumentsDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\DocumentsDbContext.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwCMAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T14:45:54.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Infrastructure",
+              "DocumentMoniker": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-18T14:37:15.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DocumentService.cs",
+              "DocumentMoniker": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Application\\Services\\DocumentService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\DocumentService.cs",
+              "ToolTip": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Application\\Services\\DocumentService.cs",
+              "RelativeToolTip": "Application\\Services\\DocumentService.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAIA3wG0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T03:06:13.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\API\\Program.cs*",
+              "RelativeToolTip": "API\\Program.cs*",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T01:36:46.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DocumentsController.cs",
+              "DocumentMoniker": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\API\\Controllers\\DocumentsController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\DocumentsController.cs",
+              "ToolTip": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\API\\Controllers\\DocumentsController.cs",
+              "RelativeToolTip": "API\\Controllers\\DocumentsController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAqwBAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T23:01:24.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DocumentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Infrastructure\\Repositories\\DocumentRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\DocumentRepository.cs",
+              "ToolTip": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Infrastructure\\Repositories\\DocumentRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\DocumentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T12:42:42.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SortBy.cs",
+              "DocumentMoniker": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Domain\\ENUMS\\SortBy.cs",
+              "RelativeDocumentMoniker": "Domain\\ENUMS\\SortBy.cs",
+              "ToolTip": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Domain\\ENUMS\\SortBy.cs",
+              "RelativeToolTip": "Domain\\ENUMS\\SortBy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T02:31:05.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IDocumentService.cs",
+              "DocumentMoniker": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Application\\Interfaces\\IDocumentService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IDocumentService.cs",
+              "ToolTip": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Application\\Interfaces\\IDocumentService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IDocumentService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T03:03:30.824Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -14,10 +14,12 @@ namespace API.Controllers
 
 
         private readonly IDocumentService _documentService;
+        private readonly ILogger<DocumentsController> _logger;
 
-        public DocumentsController(IDocumentService documentService)
+        public DocumentsController(IDocumentService documentService, ILogger<DocumentsController> logger)
         {
             _documentService = documentService;
+            _logger = logger;
         }
 
 
@@ -60,14 +62,48 @@ namespace API.Controllers
             [FromQuery] DocumentStatus? status,
             [FromQuery] string? customerId,
             [FromQuery] Channel? channel,
-            [FromQuery] SortBy sortBy,
+            [FromQuery] SortBy? sortBy,
             [FromQuery] SortDirection sortDirection = SortDirection.ASC
             )
         {
 
-            var documents = await _documentService.GetAll();
+            try
+            {
+               
+                if(!sortBy.HasValue)
+                    return BadRequest(new {error = "The sortBy Param is mandatory!" });
 
-            return Ok(documents);
+                var parameters = new ParametersDTO
+                {
+                    sortBy = sortBy.Value,
+                    channel = channel,
+                    documentType = documentType,
+                    customerId = customerId,
+                    contentType = contentType,
+                    filename = filename,
+                    sortDirection = sortDirection,
+                    status = status,
+                    uploadDateEnd = uploadDateEnd,
+                    uploadDateStart = uploadDateStart,
+                };
+                  
+                    
+                    
+
+                    
+                       
+
+
+                var documents = await _documentService.GetAllByParameters(parameters);
+
+                return Ok(documents);
+            }
+            catch (Exception ex) {
+
+                return StatusCode(500, new { error = "An unexpected error ocurred" });
+            }
+
+
         }
 
     }

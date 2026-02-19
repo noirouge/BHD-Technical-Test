@@ -1677,11 +1677,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\API\\API.csproj",
+      "projectUniqueName": "D:\\Dev\\Github\\BHD-Technical-Test\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\API\\API.csproj",
+      "projectPath": "D:\\Dev\\Github\\BHD-Technical-Test\\API\\API.csproj",
       "packagesPath": "C:\\Users\\darli\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\API\\obj\\",
+      "outputPath": "D:\\Dev\\Github\\BHD-Technical-Test\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Users\\darli\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder",
@@ -1704,14 +1704,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Application\\Application.csproj"
+            "D:\\Dev\\Github\\BHD-Technical-Test\\Application\\Application.csproj": {
+              "projectPath": "D:\\Dev\\Github\\BHD-Technical-Test\\Application\\Application.csproj"
             },
-            "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Domain\\Domain.csproj"
+            "D:\\Dev\\Github\\BHD-Technical-Test\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\Dev\\Github\\BHD-Technical-Test\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Infrastructure\\Infrastructure.csproj"
+            "D:\\Dev\\Github\\BHD-Technical-Test\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "D:\\Dev\\Github\\BHD-Technical-Test\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

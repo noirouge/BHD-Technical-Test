@@ -153,6 +153,24 @@
             "schema": {
               "$ref": "#/components/schemas/SortDirection"
             }
+          },
+          {
+            "name": "page",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          },
+          {
+            "name": "pageLimit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 10
+            }
           }
         ],
         "responses": {
@@ -210,45 +228,6 @@
           }
         }
       }
-    },
-    "/WeatherForecast": {
-      "get": {
-        "tags": [
-          "WeatherForecast"
-        ],
-        "operationId": "GetWeatherForecast",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
     }
   },
   "components": {
@@ -268,15 +247,17 @@
           "contentType",
           "documentType",
           "filename",
+          "id",
           "size",
           "status",
-          "uploadDate"
+          "uploadDate",
+          "url"
         ],
         "type": "object",
         "properties": {
           "id": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           },
           "filename": {
             "minLength": 1,
@@ -306,6 +287,10 @@
           "uploadDate": {
             "type": "string",
             "format": "date-time"
+          },
+          "url": {
+            "minLength": 1,
+            "type": "string"
           },
           "correlationId": {
             "type": "string",
@@ -337,7 +322,7 @@
           "channel",
           "contentType",
           "documentType",
-          "encondedFile",
+          "encodedFile",
           "filename"
         ],
         "type": "object",
@@ -346,7 +331,7 @@
             "minLength": 1,
             "type": "string"
           },
-          "encondedFile": {
+          "encodedFile": {
             "minLength": 1,
             "type": "string"
           },
@@ -423,29 +408,6 @@
           "DESC"
         ],
         "type": "string"
-      },
-      "WeatherForecast": {
-        "type": "object",
-        "properties": {
-          "date": {
-            "type": "string",
-            "format": "date"
-          },
-          "temperatureC": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "temperatureF": {
-            "type": "integer",
-            "format": "int32",
-            "readOnly": true
-          },
-          "summary": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
       }
     }
   }

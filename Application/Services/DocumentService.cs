@@ -9,12 +9,14 @@ using System.Threading.Tasks;
 using Domain.ENUMS;
 using Domain.Interfaces;
 
+
 namespace Application.Services
 {
     public class DocumentService : IDocumentService
     {
 
         private readonly IDocumentRepository _documentRepository;
+        
 
         public DocumentService(IDocumentRepository documentRepository)
         {
@@ -22,10 +24,38 @@ namespace Application.Services
         }
 
 
-      public async Task<DocumentUploadResponseDTO> UploadDocumentAsync(DocumentUploadRequestDTO request)
+        private async Task<string> SaveLocalFile(DocumentUploadRequestDTO request)
+        {
+            byte[] fileBytes = Convert.FromBase64String(request.EncodedFile);
+
+            string folderPath = Path.Combine(Directory.GetCurrentDirectory(), "uploads");
+            string docName = request.Filename;
+
+            if (!Directory.Exists(folderPath))
+                Directory.CreateDirectory(folderPath);
+
+            var documents = await _documentRepository.GetAllDocuments();
+
+            var existDocSameName = documents.Where(doc => doc.Filename == request.Filename).FirstOrDefault();
+
+            if (existDocSameName != null)
+                docName = $"{Guid.NewGuid().ToString()}-{docName}";
+
+            string fullPath = Path.Combine(folderPath, docName);
+
+            await File.WriteAllBytesAsync(fullPath, fileBytes);
+
+            return fullPath.Replace("\\", "/");
+        }
+
+      public async Task<DocumentUploadResponseDTO> UploadDocument(DocumentUploadRequestDTO request)
         {
 
-            var encodedBytes = Convert.FromBase64String(request.EncondedFile);
+            byte[] fileBytes = Convert.FromBase64String(request.EncodedFile);
+
+            string url = await SaveLocalFile(request);
+
+            
 
             var document = new DocumentAsset
             {
@@ -36,21 +66,21 @@ namespace Application.Services
                 Channel = request.Channel,
                 CustomerId = request.CustomerId,
                 Status = DocumentStatus.RECEIVED,
-                Size = encodedBytes.Length,
+                Size = fileBytes.Length,
                 UploadDate = DateTime.UtcNow,
                 CorrelationId = request.CorrelationId,
-                //EncodedFile = encodedBytes,
+                Url = url
             };
 
-            await _documentRepository.SaveAsync(document);
+            await _documentRepository.SaveDocument(document);
 
             return new DocumentUploadResponseDTO { Id = document.Id };
         }
 
-        public async Task<List<DocumentAsset>> GetAll()
+        public async Task<List<DocumentAsset>> GetAllDocuments()
         {
 
-            return await _documentRepository.GetAll();
+            return await _documentRepository.GetAllDocuments();
         }
 
 
@@ -89,9 +119,11 @@ namespace Application.Services
             return documentsOrdered;
         }
 
-        public async Task<List<DocumentAsset>> GetAllByParameters(ParametersDTO parameters)
+    
+
+        public async Task<PaginationDocumentsDTO> GetAllDocumentsByParameters(ParametersDTO parameters)
         {
-            var documents = await _documentRepository.GetAll();
+            var documents = await _documentRepository.GetAllDocuments();
 
            var documentsSortered = DocumentsOrderBy(documents, parameters.sortBy, parameters.sortDirection);
 
@@ -112,17 +144,18 @@ namespace Application.Services
             if (parameters.channel.HasValue)
                 documentsSortered = documentsSortered.Where(doc => doc.Channel == parameters.channel).ToList();
 
+            var documentsByPage = documentsSortered.Skip((parameters.page-1)*parameters.pagesLimit).Take(parameters.pagesLimit).ToList();
 
 
+            var paginationDocuments = new PaginationDocumentsDTO {
+            TotalDocuments = documentsSortered.Count(),
+            Page = parameters.page,
+            PageLimit = parameters.pagesLimit,
+            TotalDocumentsInPage = documentsByPage.Count(),
+            Results = documentsByPage
+            };
 
-
-
-
-
-
-
-
-            return documentsSortered;
+            return paginationDocuments;
         }
 
     }

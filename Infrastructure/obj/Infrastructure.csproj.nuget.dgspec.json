@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Infrastructure\\Infrastructure.csproj": {}
+    "D:\\Dev\\Github\\BHD-Technical-Test\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Domain\\Domain.csproj": {
+    "D:\\Dev\\Github\\BHD-Technical-Test\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Dev\\Github\\BHD-Technical-Test\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Domain\\Domain.csproj",
+        "projectPath": "D:\\Dev\\Github\\BHD-Technical-Test\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\darli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Domain\\obj\\",
+        "outputPath": "D:\\Dev\\Github\\BHD-Technical-Test\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Users\\darli\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder",
@@ -71,14 +71,14 @@
         }
       }
     },
-    "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\Dev\\Github\\BHD-Technical-Test\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\Dev\\Github\\BHD-Technical-Test\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "D:\\Dev\\Github\\BHD-Technical-Test\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\darli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Infrastructure\\obj\\",
+        "outputPath": "D:\\Dev\\Github\\BHD-Technical-Test\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Users\\darli\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder",
@@ -101,8 +101,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Domain\\Domain.csproj"
+              "D:\\Dev\\Github\\BHD-Technical-Test\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Dev\\Github\\BHD-Technical-Test\\Domain\\Domain.csproj"
               }
             }
           }

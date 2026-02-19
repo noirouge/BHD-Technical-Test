@@ -35,7 +35,7 @@ namespace Infrastructure.Persistence
                 entity.Property(x => x.Size).IsRequired();
                 entity.Property(x => x.UploadDate).HasDefaultValueSql("CURRENT_TIMESTAMP");
                 entity.Property(x => x.CorrelationId);
-
+                entity.Property(x => x.Url).IsRequired();
 
 
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aiTBOdtw/EM=",
+  "dgSpecHash": "s15t+vpXo4s=",
   "success": true,
-  "projectFilePath": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\API\\API.csproj",
+  "projectFilePath": "D:\\Dev\\Github\\BHD-Technical-Test\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\darli\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.0\\microsoft.data.sqlite.core.8.0.0.nupkg.sha512",
     "C:\\Users\\darli\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0\\microsoft.entityframeworkcore.8.0.0.nupkg.sha512",

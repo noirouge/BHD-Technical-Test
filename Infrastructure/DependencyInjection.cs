@@ -1,4 +1,6 @@
-﻿using Infrastructure.Persistence;
+﻿using Domain.Interfaces;
+using Infrastructure.Persistence;
+using Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -14,8 +16,9 @@ namespace Infrastructure
     {
         public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration) {
 
-            services.AddDbContext<DocumentsDbContext>(options => options.UseSqlite($"Data Source={Path.Combine(AppContext.BaseDirectory, "bhdtest.db")}"));
+            services.AddDbContext<DocumentsDbContext>(options => options.UseSqlite($"Data Source=test-bhd.db"));
 
+            services.AddScoped<IDocumentRepository, DocumentRepository>();
 
             return services;
         }

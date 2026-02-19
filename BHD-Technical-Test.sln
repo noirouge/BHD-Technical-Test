@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{6454C324-935B-4579-A1E0-8135C925EB7A}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{9C23D226-B115-4FFE-B7E1-7B03C760BD75}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{23AD5781-2918-45DC-8AAF-8A0C4AA891E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{8BCE53DB-29D0-4F2F-AFAB-26A8358CF8A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{23AD5781-2918-45DC-8AAF-8A0C4AA891E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23AD5781-2918-45DC-8AAF-8A0C4AA891E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23AD5781-2918-45DC-8AAF-8A0C4AA891E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BCE53DB-29D0-4F2F-AFAB-26A8358CF8A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BCE53DB-29D0-4F2F-AFAB-26A8358CF8A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BCE53DB-29D0-4F2F-AFAB-26A8358CF8A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BCE53DB-29D0-4F2F-AFAB-26A8358CF8A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

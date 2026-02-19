@@ -1,46 +1,102 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\",
+  "WorkspaceRootPath": "D:\\Dev\\Github\\BHD-Technical-Test\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6454C324-935B-4579-A1E0-8135C925EB7A}|API\\API.csproj|c:\\users\\darli\\onedrive\\documentos\\bhd-technical-test\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6454C324-935B-4579-A1E0-8135C925EB7A}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8BCE53DB-29D0-4F2F-AFAB-26A8358CF8A7}|Tests\\Tests.csproj|d:\\dev\\github\\bhd-technical-test\\tests\\unittests\\applicationdocumentserviceunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BCE53DB-29D0-4F2F-AFAB-26A8358CF8A7}|Tests\\Tests.csproj|solutionrelative:tests\\unittests\\applicationdocumentserviceunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23AD5781-2918-45DC-8AAF-8A0C4AA891E2}|Infrastructure\\Infrastructure.csproj|c:\\users\\darli\\onedrive\\documentos\\bhd-technical-test\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23AD5781-2918-45DC-8AAF-8A0C4AA891E2}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8BCE53DB-29D0-4F2F-AFAB-26A8358CF8A7}|Tests\\Tests.csproj|d:\\dev\\github\\bhd-technical-test\\tests\\integrationtests\\documentscontrollerintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BCE53DB-29D0-4F2F-AFAB-26A8358CF8A7}|Tests\\Tests.csproj|solutionrelative:tests\\integrationtests\\documentscontrollerintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23AD5781-2918-45DC-8AAF-8A0C4AA891E2}|Infrastructure\\Infrastructure.csproj|c:\\users\\darli\\onedrive\\documentos\\bhd-technical-test\\infrastructure\\persistence\\documentsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23AD5781-2918-45DC-8AAF-8A0C4AA891E2}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\documentsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8BCE53DB-29D0-4F2F-AFAB-26A8358CF8A7}|Tests\\Tests.csproj|d:\\dev\\github\\bhd-technical-test\\tests\\unittests\\applicationutilsunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BCE53DB-29D0-4F2F-AFAB-26A8358CF8A7}|Tests\\Tests.csproj|solutionrelative:tests\\unittests\\applicationutilsunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23AD5781-2918-45DC-8AAF-8A0C4AA891E2}|Infrastructure\\Infrastructure.csproj|c:\\users\\darli\\onedrive\\documentos\\bhd-technical-test\\infrastructure\\repositories\\documentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23AD5781-2918-45DC-8AAF-8A0C4AA891E2}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\documentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99E24EBD-447C-4EAC-A6DC-E519710173D0}|Application\\Application.csproj|c:\\users\\darli\\onedrive\\documentos\\bhd-technical-test\\application\\services\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{99E24EBD-447C-4EAC-A6DC-E519710173D0}|Application\\Application.csproj|d:\\dev\\github\\bhd-technical-test\\application\\services\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{99E24EBD-447C-4EAC-A6DC-E519710173D0}|Application\\Application.csproj|solutionrelative:application\\services\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6454C324-935B-4579-A1E0-8135C925EB7A}|API\\API.csproj|c:\\users\\darli\\onedrive\\documentos\\bhd-technical-test\\api\\controllers\\documentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{23AD5781-2918-45DC-8AAF-8A0C4AA891E2}|Infrastructure\\Infrastructure.csproj|d:\\dev\\github\\bhd-technical-test\\infrastructure\\repositories\\documentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23AD5781-2918-45DC-8AAF-8A0C4AA891E2}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\documentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6454C324-935B-4579-A1E0-8135C925EB7A}|API\\API.csproj|d:\\dev\\github\\bhd-technical-test\\api\\controllers\\documentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6454C324-935B-4579-A1E0-8135C925EB7A}|API\\API.csproj|solutionrelative:api\\controllers\\documentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99E24EBD-447C-4EAC-A6DC-E519710173D0}|Application\\Application.csproj|c:\\users\\darli\\onedrive\\documentos\\bhd-technical-test\\application\\dtos\\documentassetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99E24EBD-447C-4EAC-A6DC-E519710173D0}|Application\\Application.csproj|solutionrelative:application\\dtos\\documentassetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23AD5781-2918-45DC-8AAF-8A0C4AA891E2}|Infrastructure\\Infrastructure.csproj|c:\\users\\darli\\onedrive\\documentos\\bhd-technical-test\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{23AD5781-2918-45DC-8AAF-8A0C4AA891E2}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99E24EBD-447C-4EAC-A6DC-E519710173D0}|Application\\Application.csproj|c:\\users\\darli\\onedrive\\documentos\\bhd-technical-test\\application\\interfaces\\idocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{99E24EBD-447C-4EAC-A6DC-E519710173D0}|Application\\Application.csproj|d:\\dev\\github\\bhd-technical-test\\application\\interfaces\\idocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{99E24EBD-447C-4EAC-A6DC-E519710173D0}|Application\\Application.csproj|solutionrelative:application\\interfaces\\idocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C23D226-B115-4FFE-B7E1-7B03C760BD75}|Domain\\Domain.csproj|c:\\users\\darli\\onedrive\\documentos\\bhd-technical-test\\domain\\enums\\sortby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8BCE53DB-29D0-4F2F-AFAB-26A8358CF8A7}|Tests\\Tests.csproj|d:\\dev\\github\\bhd-technical-test\\tests\\tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8BCE53DB-29D0-4F2F-AFAB-26A8358CF8A7}|Tests\\Tests.csproj|solutionrelative:tests\\tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C23D226-B115-4FFE-B7E1-7B03C760BD75}|Domain\\Domain.csproj|d:\\dev\\github\\bhd-technical-test\\domain\\interfaces\\idocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C23D226-B115-4FFE-B7E1-7B03C760BD75}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\idocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E24EBD-447C-4EAC-A6DC-E519710173D0}|Application\\Application.csproj|d:\\dev\\github\\bhd-technical-test\\application\\dtos\\paginationdocumentsnoenumsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99E24EBD-447C-4EAC-A6DC-E519710173D0}|Application\\Application.csproj|solutionrelative:application\\dtos\\paginationdocumentsnoenumsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E24EBD-447C-4EAC-A6DC-E519710173D0}|Application\\Application.csproj|d:\\dev\\github\\bhd-technical-test\\application\\dtos\\documentassetnoenumsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99E24EBD-447C-4EAC-A6DC-E519710173D0}|Application\\Application.csproj|solutionrelative:application\\dtos\\documentassetnoenumsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E24EBD-447C-4EAC-A6DC-E519710173D0}|Application\\Application.csproj|d:\\dev\\github\\bhd-technical-test\\application\\dtos\\paginationdocumentsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99E24EBD-447C-4EAC-A6DC-E519710173D0}|Application\\Application.csproj|solutionrelative:application\\dtos\\paginationdocumentsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C23D226-B115-4FFE-B7E1-7B03C760BD75}|Domain\\Domain.csproj|d:\\dev\\github\\bhd-technical-test\\domain\\entities\\documentasset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C23D226-B115-4FFE-B7E1-7B03C760BD75}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\documentasset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6454C324-935B-4579-A1E0-8135C925EB7A}|API\\API.csproj|d:\\dev\\github\\bhd-technical-test\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6454C324-935B-4579-A1E0-8135C925EB7A}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6454C324-935B-4579-A1E0-8135C925EB7A}|API\\API.csproj|d:\\dev\\github\\bhd-technical-test\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6454C324-935B-4579-A1E0-8135C925EB7A}|API\\API.csproj|solutionrelative:api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23AD5781-2918-45DC-8AAF-8A0C4AA891E2}|Infrastructure\\Infrastructure.csproj|d:\\dev\\github\\bhd-technical-test\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{23AD5781-2918-45DC-8AAF-8A0C4AA891E2}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E24EBD-447C-4EAC-A6DC-E519710173D0}|Application\\Application.csproj|d:\\dev\\github\\bhd-technical-test\\application\\dtos\\documentuploadrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99E24EBD-447C-4EAC-A6DC-E519710173D0}|Application\\Application.csproj|solutionrelative:application\\dtos\\documentuploadrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E24EBD-447C-4EAC-A6DC-E519710173D0}|Application\\Application.csproj|d:\\dev\\github\\bhd-technical-test\\application\\utils\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99E24EBD-447C-4EAC-A6DC-E519710173D0}|Application\\Application.csproj|solutionrelative:application\\utils\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E24EBD-447C-4EAC-A6DC-E519710173D0}|Application\\Application.csproj|d:\\dev\\github\\bhd-technical-test\\application\\dtos\\parametersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99E24EBD-447C-4EAC-A6DC-E519710173D0}|Application\\Application.csproj|solutionrelative:application\\dtos\\parametersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23AD5781-2918-45DC-8AAF-8A0C4AA891E2}|Infrastructure\\Infrastructure.csproj|d:\\dev\\github\\bhd-technical-test\\infrastructure\\persistence\\documentsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23AD5781-2918-45DC-8AAF-8A0C4AA891E2}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\documentsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23AD5781-2918-45DC-8AAF-8A0C4AA891E2}|Infrastructure\\Infrastructure.csproj|d:\\dev\\github\\bhd-technical-test\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23AD5781-2918-45DC-8AAF-8A0C4AA891E2}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C23D226-B115-4FFE-B7E1-7B03C760BD75}|Domain\\Domain.csproj|d:\\dev\\github\\bhd-technical-test\\domain\\enums\\sortby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C23D226-B115-4FFE-B7E1-7B03C760BD75}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\sortby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C23D226-B115-4FFE-B7E1-7B03C760BD75}|Domain\\Domain.csproj|d:\\dev\\github\\bhd-technical-test\\domain\\enums\\documenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C23D226-B115-4FFE-B7E1-7B03C760BD75}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\documenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E24EBD-447C-4EAC-A6DC-E519710173D0}|Application\\Application.csproj|d:\\dev\\github\\bhd-technical-test\\application\\dtos\\documentuploadresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99E24EBD-447C-4EAC-A6DC-E519710173D0}|Application\\Application.csproj|solutionrelative:application\\dtos\\documentuploadresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,54 +106,236 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Infrastructure\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Infrastructure\\DependencyInjection.cs",
-              "RelativeToolTip": "Infrastructure\\DependencyInjection.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAACHAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDocumentServiceUnitTest.cs",
+              "DocumentMoniker": "D:\\Dev\\Github\\BHD-Technical-Test\\Tests\\UnitTests\\ApplicationDocumentServiceUnitTest.cs",
+              "RelativeDocumentMoniker": "Tests\\UnitTests\\ApplicationDocumentServiceUnitTest.cs",
+              "ToolTip": "D:\\Dev\\Github\\BHD-Technical-Test\\Tests\\UnitTests\\ApplicationDocumentServiceUnitTest.cs",
+              "RelativeToolTip": "Tests\\UnitTests\\ApplicationDocumentServiceUnitTest.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAwwFUAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T15:10:55.413Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DocumentAssetDTO.cs",
-              "DocumentMoniker": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Application\\DTOS\\DocumentAssetDTO.cs",
-              "RelativeDocumentMoniker": "Application\\DTOS\\DocumentAssetDTO.cs",
-              "ToolTip": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Application\\DTOS\\DocumentAssetDTO.cs",
-              "RelativeToolTip": "Application\\DTOS\\DocumentAssetDTO.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAiwCEAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T14:52:06.003Z",
+              "WhenOpened": "2026-02-18T23:31:33.183Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DocumentsDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Infrastructure\\Persistence\\DocumentsDbContext.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\DocumentsDbContext.cs",
-              "ToolTip": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Infrastructure\\Persistence\\DocumentsDbContext.cs",
-              "RelativeToolTip": "Infrastructure\\Persistence\\DocumentsDbContext.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAIwCMAAABFAAAAAAAAAA==",
+              "Title": "ApplicationUtilsUnitTests.cs",
+              "DocumentMoniker": "D:\\Dev\\Github\\BHD-Technical-Test\\Tests\\UnitTests\\ApplicationUtilsUnitTests.cs",
+              "RelativeDocumentMoniker": "Tests\\UnitTests\\ApplicationUtilsUnitTests.cs",
+              "ToolTip": "D:\\Dev\\Github\\BHD-Technical-Test\\Tests\\UnitTests\\ApplicationUtilsUnitTests.cs",
+              "RelativeToolTip": "Tests\\UnitTests\\ApplicationUtilsUnitTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T14:45:54.682Z",
+              "WhenOpened": "2026-02-18T22:04:08.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DocumentService.cs",
+              "DocumentMoniker": "D:\\Dev\\Github\\BHD-Technical-Test\\Application\\Services\\DocumentService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\DocumentService.cs",
+              "ToolTip": "D:\\Dev\\Github\\BHD-Technical-Test\\Application\\Services\\DocumentService.cs",
+              "RelativeToolTip": "Application\\Services\\DocumentService.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAA4wHsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T03:06:13.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IDocumentService.cs",
+              "DocumentMoniker": "D:\\Dev\\Github\\BHD-Technical-Test\\Application\\Interfaces\\IDocumentService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IDocumentService.cs",
+              "ToolTip": "D:\\Dev\\Github\\BHD-Technical-Test\\Application\\Interfaces\\IDocumentService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IDocumentService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAmwBAAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T03:03:30.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DocumentsController.cs",
+              "DocumentMoniker": "D:\\Dev\\Github\\BHD-Technical-Test\\API\\Controllers\\DocumentsController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\DocumentsController.cs",
+              "ToolTip": "D:\\Dev\\Github\\BHD-Technical-Test\\API\\Controllers\\DocumentsController.cs",
+              "RelativeToolTip": "API\\Controllers\\DocumentsController.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAiwHUAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T23:01:24.664Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Infrastructure",
-              "DocumentMoniker": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Infrastructure\\Infrastructure.csproj",
+              "Title": "Tests",
+              "DocumentMoniker": "D:\\Dev\\Github\\BHD-Technical-Test\\Tests\\Tests.csproj",
+              "RelativeDocumentMoniker": "Tests\\Tests.csproj",
+              "ToolTip": "D:\\Dev\\Github\\BHD-Technical-Test\\Tests\\Tests.csproj",
+              "RelativeToolTip": "Tests\\Tests.csproj",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-18T22:00:18.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DocumentRepository.cs",
+              "DocumentMoniker": "D:\\Dev\\Github\\BHD-Technical-Test\\Infrastructure\\Repositories\\DocumentRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\DocumentRepository.cs",
+              "ToolTip": "D:\\Dev\\Github\\BHD-Technical-Test\\Infrastructure\\Repositories\\DocumentRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\DocumentRepository.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwCkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T12:42:42.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DocumentsControllerIntegrationTests.cs",
+              "DocumentMoniker": "D:\\Dev\\Github\\BHD-Technical-Test\\Tests\\IntegrationTests\\DocumentsControllerIntegrationTests.cs",
+              "RelativeDocumentMoniker": "Tests\\IntegrationTests\\DocumentsControllerIntegrationTests.cs",
+              "ToolTip": "D:\\Dev\\Github\\BHD-Technical-Test\\Tests\\IntegrationTests\\DocumentsControllerIntegrationTests.cs",
+              "RelativeToolTip": "Tests\\IntegrationTests\\DocumentsControllerIntegrationTests.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T22:00:32.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IDocumentRepository.cs",
+              "DocumentMoniker": "D:\\Dev\\Github\\BHD-Technical-Test\\Domain\\Interfaces\\IDocumentRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IDocumentRepository.cs",
+              "ToolTip": "D:\\Dev\\Github\\BHD-Technical-Test\\Domain\\Interfaces\\IDocumentRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IDocumentRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T18:22:59.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PaginationDocumentsNoEnumsDTO.cs",
+              "DocumentMoniker": "D:\\Dev\\Github\\BHD-Technical-Test\\Application\\DTOS\\PaginationDocumentsNoEnumsDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOS\\PaginationDocumentsNoEnumsDTO.cs",
+              "ToolTip": "D:\\Dev\\Github\\BHD-Technical-Test\\Application\\DTOS\\PaginationDocumentsNoEnumsDTO.cs",
+              "RelativeToolTip": "Application\\DTOS\\PaginationDocumentsNoEnumsDTO.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswBUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T23:21:24.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DocumentAssetNoEnumsDTO.cs",
+              "DocumentMoniker": "D:\\Dev\\Github\\BHD-Technical-Test\\Application\\DTOS\\DocumentAssetNoEnumsDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOS\\DocumentAssetNoEnumsDTO.cs",
+              "ToolTip": "D:\\Dev\\Github\\BHD-Technical-Test\\Application\\DTOS\\DocumentAssetNoEnumsDTO.cs",
+              "RelativeToolTip": "Application\\DTOS\\DocumentAssetNoEnumsDTO.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwCUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T23:19:18.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Dev\\Github\\BHD-Technical-Test\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "D:\\Dev\\Github\\BHD-Technical-Test\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T01:36:46.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PaginationDocumentsDTO.cs",
+              "DocumentMoniker": "D:\\Dev\\Github\\BHD-Technical-Test\\Application\\DTOS\\PaginationDocumentsDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOS\\PaginationDocumentsDTO.cs",
+              "ToolTip": "D:\\Dev\\Github\\BHD-Technical-Test\\Application\\DTOS\\PaginationDocumentsDTO.cs",
+              "RelativeToolTip": "Application\\DTOS\\PaginationDocumentsDTO.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAcwAwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T20:52:19.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DocumentAsset.cs",
+              "DocumentMoniker": "D:\\Dev\\Github\\BHD-Technical-Test\\Domain\\Entities\\DocumentAsset.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\DocumentAsset.cs",
+              "ToolTip": "D:\\Dev\\Github\\BHD-Technical-Test\\Domain\\Entities\\DocumentAsset.cs",
+              "RelativeToolTip": "Domain\\Entities\\DocumentAsset.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAowA8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T18:41:30.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DocumentUploadRequestDTO.cs",
+              "DocumentMoniker": "D:\\Dev\\Github\\BHD-Technical-Test\\Application\\DTOS\\DocumentUploadRequestDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOS\\DocumentUploadRequestDTO.cs",
+              "ToolTip": "D:\\Dev\\Github\\BHD-Technical-Test\\Application\\DTOS\\DocumentUploadRequestDTO.cs",
+              "RelativeToolTip": "Application\\DTOS\\DocumentUploadRequestDTO.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T19:27:29.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "API",
+              "DocumentMoniker": "D:\\Dev\\Github\\BHD-Technical-Test\\API\\API.csproj",
+              "RelativeDocumentMoniker": "API\\API.csproj",
+              "ToolTip": "D:\\Dev\\Github\\BHD-Technical-Test\\API\\API.csproj",
+              "RelativeToolTip": "API\\API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-18T22:10:32.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Utils.cs",
+              "DocumentMoniker": "D:\\Dev\\Github\\BHD-Technical-Test\\Application\\Utils\\Utils.cs",
+              "RelativeDocumentMoniker": "Application\\Utils\\Utils.cs",
+              "ToolTip": "D:\\Dev\\Github\\BHD-Technical-Test\\Application\\Utils\\Utils.cs",
+              "RelativeToolTip": "Application\\Utils\\Utils.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T21:08:01.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Infrastructure.csproj",
+              "DocumentMoniker": "D:\\Dev\\Github\\BHD-Technical-Test\\Infrastructure\\Infrastructure.csproj",
               "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
-              "ToolTip": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "D:\\Dev\\Github\\BHD-Technical-Test\\Infrastructure\\Infrastructure.csproj",
               "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -106,63 +344,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DocumentService.cs",
-              "DocumentMoniker": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Application\\Services\\DocumentService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\DocumentService.cs",
-              "ToolTip": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Application\\Services\\DocumentService.cs",
-              "RelativeToolTip": "Application\\Services\\DocumentService.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAIA3wG0AAAApAAAAAAAAAA==",
+              "DocumentIndex": 19,
+              "Title": "DocumentsDbContext.cs",
+              "DocumentMoniker": "D:\\Dev\\Github\\BHD-Technical-Test\\Infrastructure\\Persistence\\DocumentsDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\DocumentsDbContext.cs",
+              "ToolTip": "D:\\Dev\\Github\\BHD-Technical-Test\\Infrastructure\\Persistence\\DocumentsDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\DocumentsDbContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwBMAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T03:06:13.502Z",
+              "WhenOpened": "2026-02-18T14:45:54.682Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\API\\Program.cs",
-              "RelativeDocumentMoniker": "API\\Program.cs",
-              "ToolTip": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\API\\Program.cs",
-              "RelativeToolTip": "API\\Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAACUAAAADAAAAAAAAAA==",
+              "DocumentIndex": 20,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\Dev\\Github\\BHD-Technical-Test\\Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "D:\\Dev\\Github\\BHD-Technical-Test\\Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T01:36:46.093Z",
+              "WhenOpened": "2026-02-18T15:10:55.413Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DocumentsController.cs",
-              "DocumentMoniker": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\API\\Controllers\\DocumentsController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\DocumentsController.cs",
-              "ToolTip": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\API\\Controllers\\DocumentsController.cs",
-              "RelativeToolTip": "API\\Controllers\\DocumentsController.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAqwBAAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "ParametersDTO.cs",
+              "DocumentMoniker": "D:\\Dev\\Github\\BHD-Technical-Test\\Application\\DTOS\\ParametersDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOS\\ParametersDTO.cs",
+              "ToolTip": "D:\\Dev\\Github\\BHD-Technical-Test\\Application\\DTOS\\ParametersDTO.cs",
+              "RelativeToolTip": "Application\\DTOS\\ParametersDTO.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T23:01:24.664Z",
+              "WhenOpened": "2026-02-18T20:07:07.638Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DocumentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Infrastructure\\Repositories\\DocumentRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\DocumentRepository.cs",
-              "ToolTip": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Infrastructure\\Repositories\\DocumentRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\DocumentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T12:42:42.207Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 21,
               "Title": "SortBy.cs",
-              "DocumentMoniker": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Domain\\ENUMS\\SortBy.cs",
+              "DocumentMoniker": "D:\\Dev\\Github\\BHD-Technical-Test\\Domain\\ENUMS\\SortBy.cs",
               "RelativeDocumentMoniker": "Domain\\ENUMS\\SortBy.cs",
-              "ToolTip": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Domain\\ENUMS\\SortBy.cs",
+              "ToolTip": "D:\\Dev\\Github\\BHD-Technical-Test\\Domain\\ENUMS\\SortBy.cs",
               "RelativeToolTip": "Domain\\ENUMS\\SortBy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -171,15 +396,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IDocumentService.cs",
-              "DocumentMoniker": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Application\\Interfaces\\IDocumentService.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\IDocumentService.cs",
-              "ToolTip": "C:\\Users\\darli\\OneDrive\\Documentos\\BHD-Technical-Test\\Application\\Interfaces\\IDocumentService.cs",
-              "RelativeToolTip": "Application\\Interfaces\\IDocumentService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 22,
+              "Title": "DocumentType.cs",
+              "DocumentMoniker": "D:\\Dev\\Github\\BHD-Technical-Test\\Domain\\ENUMS\\DocumentType.cs",
+              "RelativeDocumentMoniker": "Domain\\ENUMS\\DocumentType.cs",
+              "ToolTip": "D:\\Dev\\Github\\BHD-Technical-Test\\Domain\\ENUMS\\DocumentType.cs",
+              "RelativeToolTip": "Domain\\ENUMS\\DocumentType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T03:03:30.824Z",
+              "WhenOpened": "2026-02-18T19:45:53.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DocumentUploadResponseDTO.cs",
+              "DocumentMoniker": "D:\\Dev\\Github\\BHD-Technical-Test\\Application\\DTOS\\DocumentUploadResponseDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOS\\DocumentUploadResponseDTO.cs",
+              "ToolTip": "D:\\Dev\\Github\\BHD-Technical-Test\\Application\\DTOS\\DocumentUploadResponseDTO.cs",
+              "RelativeToolTip": "Application\\DTOS\\DocumentUploadResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T19:55:13.028Z",
               "EditorCaption": ""
             }
           ]

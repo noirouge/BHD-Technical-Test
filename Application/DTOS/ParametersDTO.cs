@@ -19,5 +19,7 @@ namespace Application.DTOS
            public Channel? channel {  get; set; }
            public SortBy sortBy    { get; set; }
            public SortDirection sortDirection = SortDirection.ASC;
+        public int page { get; set; }
+        public int pagesLimit { get; set; }
     }
 }

@@ -22,3 +22,15 @@ C:\Users\darli\OneDrive\Documentos\BHD-Technical-Test\Domain\obj\Debug\net8.0\Do
 C:\Users\darli\OneDrive\Documentos\BHD-Technical-Test\Domain\obj\Debug\net8.0\refint\Domain.dll
 C:\Users\darli\OneDrive\Documentos\BHD-Technical-Test\Domain\obj\Debug\net8.0\Domain.pdb
 C:\Users\darli\OneDrive\Documentos\BHD-Technical-Test\Domain\obj\Debug\net8.0\ref\Domain.dll
+D:\Dev\Github\BHD-Technical-Test\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\Dev\Github\BHD-Technical-Test\Domain\bin\Debug\net8.0\Domain.dll
+D:\Dev\Github\BHD-Technical-Test\Domain\bin\Debug\net8.0\Domain.pdb
+D:\Dev\Github\BHD-Technical-Test\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\Github\BHD-Technical-Test\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\Dev\Github\BHD-Technical-Test\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\Dev\Github\BHD-Technical-Test\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\Dev\Github\BHD-Technical-Test\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+D:\Dev\Github\BHD-Technical-Test\Domain\obj\Debug\net8.0\Domain.dll
+D:\Dev\Github\BHD-Technical-Test\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\Dev\Github\BHD-Technical-Test\Domain\obj\Debug\net8.0\Domain.pdb
+D:\Dev\Github\BHD-Technical-Test\Domain\obj\Debug\net8.0\ref\Domain.dll

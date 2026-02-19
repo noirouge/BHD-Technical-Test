@@ -13,12 +13,14 @@ namespace Application.DTOS
         [Required]
         public string Filename { get; set; }
         [Required]
-        public string EncondedFile { get; set; }
+        public string EncodedFile { get; set; }
         [Required]
         public string ContentType { get; set; }
         [Required]
+        [EnumDataType(typeof(DocumentType), ErrorMessage = "Invalid value for documentType field")]
         public DocumentType DocumentType { get; set; }
         [Required]
+        [EnumDataType(typeof(Channel), ErrorMessage = "Invalid value for channel field")]
         public Channel Channel { get; set; }
 
         public string? CustomerId { get; set; }

@@ -9,7 +9,9 @@ namespace Domain.Interfaces
 {
     public interface IDocumentRepository
     {
-        Task SaveAsync(DocumentAsset document);
-        Task<List<DocumentAsset>> GetAll();
+        Task SaveDocument(DocumentAsset document);
+        Task<List<DocumentAsset>> GetAllDocuments();
+
+        Task<DocumentAsset?> GetDocumentById(string id);
     }
 }

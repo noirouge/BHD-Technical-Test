@@ -10,11 +10,12 @@ namespace Application.Interfaces
 {
     public interface IDocumentService
     {
-        Task<DocumentUploadResponseDTO> UploadDocumentAsync(DocumentUploadRequestDTO request);
+        Task<DocumentUploadResponseDTO> UploadDocument(DocumentUploadRequestDTO request);
 
-        Task<List<DocumentAsset>> GetAll();
+        Task<List<DocumentAsset>> GetAllDocuments();
 
-        Task<List<DocumentAsset>> GetAllByParameters(ParametersDTO parameters);
+        Task<PaginationDocumentsDTO> GetAllDocumentsByParameters(ParametersDTO parameters);
+
 
     }
 }

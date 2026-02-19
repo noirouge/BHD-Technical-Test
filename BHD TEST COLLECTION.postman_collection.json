@@ -1,0 +1,407 @@
+{
+	"info": {
+		"_postman_id": "ea4ee12a-d5af-4f73-aeaf-02999054d51e",
+		"name": "BHD TEST COLLECTION",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12936159"
+	},
+	"item": [
+		{
+			"name": "Get SortBy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BHD-API-URL}}api/bhd/mgmt/1/documents?SortBy=Filename&page=1&pageLimit=10",
+					"host": [
+						"{{BHD-API-URL}}api"
+					],
+					"path": [
+						"bhd",
+						"mgmt",
+						"1",
+						"documents"
+					],
+					"query": [
+						{
+							"key": "SortBy",
+							"value": "Filename"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "pageLimit",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get SortBy Descending",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BHD-API-URL}}api/bhd/mgmt/1/documents?SortBy=Filename&page=1&pageLimit=10&SortDirection=DESC",
+					"host": [
+						"{{BHD-API-URL}}api"
+					],
+					"path": [
+						"bhd",
+						"mgmt",
+						"1",
+						"documents"
+					],
+					"query": [
+						{
+							"key": "SortBy",
+							"value": "Filename"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "pageLimit",
+							"value": "10"
+						},
+						{
+							"key": "SortDirection",
+							"value": "DESC"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get SortBy DateStart",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BHD-API-URL}}api/bhd/mgmt/1/documents?SortBy=Filename&page=1&pageLimit=10&uploadDateStart=2026-02-18T20:26:39.1379244",
+					"host": [
+						"{{BHD-API-URL}}api"
+					],
+					"path": [
+						"bhd",
+						"mgmt",
+						"1",
+						"documents"
+					],
+					"query": [
+						{
+							"key": "SortBy",
+							"value": "Filename"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "pageLimit",
+							"value": "10"
+						},
+						{
+							"key": "uploadDateStart",
+							"value": "2026-02-18T20:26:39.1379244"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get SortBy DateEnd",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BHD-API-URL}}api/bhd/mgmt/1/documents?SortBy=Filename&page=1&pageLimit=10&uploadDateEnd=2026-02-18T20:26:46.3342833",
+					"host": [
+						"{{BHD-API-URL}}api"
+					],
+					"path": [
+						"bhd",
+						"mgmt",
+						"1",
+						"documents"
+					],
+					"query": [
+						{
+							"key": "SortBy",
+							"value": "Filename"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "pageLimit",
+							"value": "10"
+						},
+						{
+							"key": "uploadDateEnd",
+							"value": "2026-02-18T20:26:46.3342833"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get SortBy Filename",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BHD-API-URL}}api/bhd/mgmt/1/documents?SortBy=Filename&page=1&pageLimit=10&filename=a",
+					"host": [
+						"{{BHD-API-URL}}api"
+					],
+					"path": [
+						"bhd",
+						"mgmt",
+						"1",
+						"documents"
+					],
+					"query": [
+						{
+							"key": "SortBy",
+							"value": "Filename"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "pageLimit",
+							"value": "10"
+						},
+						{
+							"key": "filename",
+							"value": "a"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get SortBy ContentType",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BHD-API-URL}}api/bhd/mgmt/1/documents?SortBy=Filename&page=1&pageLimit=10&contentType=text/plain",
+					"host": [
+						"{{BHD-API-URL}}api"
+					],
+					"path": [
+						"bhd",
+						"mgmt",
+						"1",
+						"documents"
+					],
+					"query": [
+						{
+							"key": "SortBy",
+							"value": "Filename"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "pageLimit",
+							"value": "10"
+						},
+						{
+							"key": "contentType",
+							"value": "text/plain"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get SortBy DocumentType",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BHD-API-URL}}api/bhd/mgmt/1/documents?SortBy=Filename&page=1&pageLimit=10&documentType=KYC",
+					"host": [
+						"{{BHD-API-URL}}api"
+					],
+					"path": [
+						"bhd",
+						"mgmt",
+						"1",
+						"documents"
+					],
+					"query": [
+						{
+							"key": "SortBy",
+							"value": "Filename"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "pageLimit",
+							"value": "10"
+						},
+						{
+							"key": "documentType",
+							"value": "KYC"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get SortBy Status",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BHD-API-URL}}api/bhd/mgmt/1/documents?SortBy=Filename&page=1&pageLimit=10&status=RECEIVED",
+					"host": [
+						"{{BHD-API-URL}}api"
+					],
+					"path": [
+						"bhd",
+						"mgmt",
+						"1",
+						"documents"
+					],
+					"query": [
+						{
+							"key": "SortBy",
+							"value": "Filename"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "pageLimit",
+							"value": "10"
+						},
+						{
+							"key": "status",
+							"value": "RECEIVED"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get SortBy Channel",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BHD-API-URL}}api/bhd/mgmt/1/documents?SortBy=Filename&page=1&pageLimit=10&channel=BRANCH",
+					"host": [
+						"{{BHD-API-URL}}api"
+					],
+					"path": [
+						"bhd",
+						"mgmt",
+						"1",
+						"documents"
+					],
+					"query": [
+						{
+							"key": "SortBy",
+							"value": "Filename"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "pageLimit",
+							"value": "10"
+						},
+						{
+							"key": "channel",
+							"value": "BRANCH"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Upload Document",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"filename\":\"dddd.txt\",\r\n\"encodedFile\":\"SG9sYSBxdWUgdGFsIHRvZG8/\",\r\n\"contentType\":\"text/plain\",\r\n\"documentType\":\"KYC\",\r\n\"channel\":\"BRANCH\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BHD-API-URL}}api/bhd/mgmt/1/documents/actions/upload",
+					"host": [
+						"{{BHD-API-URL}}api"
+					],
+					"path": [
+						"bhd",
+						"mgmt",
+						"1",
+						"documents",
+						"actions",
+						"upload"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "BHD-API-URL",
+			"value": "localhost:5000/"
+		}
+	]
+}

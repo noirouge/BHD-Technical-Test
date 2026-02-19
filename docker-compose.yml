@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: bhd-technical-test-api
+    ports:
+      - "5000:8080"
+      - "5001:8081"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080
+    volumes:
+      - ./API/uploads:/app/uploads
+      - ./API/test-bhd.db:/app/test-bhd.db
+    restart: unless-stopped
+    networks:
+      - bhd-test
+
+networks:
+  bhd-test:
+    driver: bridge
